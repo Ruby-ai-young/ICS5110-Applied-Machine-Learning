@@ -9,6 +9,45 @@ h1 {
 }
 
 .embed-responsive-item {
+	margin-top: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tooltip-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	margin-top: 50px;
+	transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+	padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.btn-floating {
+    padding: 12.5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	background-color: #000080;;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-tooltip {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .d-flex.justify-content-end {
+    margin-left: auto;
+}
+
+img {
+	margin-left: 10px;
 }
